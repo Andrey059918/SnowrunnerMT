@@ -1,0 +1,89 @@
+<SnowrunnerTweaks>
+  <ByParameter>
+    <Group parameter="FuelConsumption" type="Real">
+      <Tweak directory="engines"/>
+      <Tweak directory="gearboxes"/>
+    </Group>
+    <Group parameter="FuelCapacity" type="Integer">
+      <Tweak directory="trucks"/>
+      <Tweak directory="addons"/>
+      <Tweak directory="trailers"/>
+    </Group>
+    <Group parameter="RepairsCapacity" type="Integer">
+      <Tweak directory="addons"/>
+      <Tweak directory="trailers"/>
+    </Group>
+    <Group parameter="WheelRepairsCapacity" type="Integer">
+      <Tweak directory="addons"/>
+      <Tweak directory="trailers"/>
+    </Group>
+    <Group parameter="DamageCapacity" type="Integer">
+      <Tweak directory="engines"/>
+      <Tweak directory="gearboxes"/>
+      <Tweak directory="suspensions"/>
+      <Tweak directory="wheels"/>
+    </Group>
+    <Group parameter="Mass" type="Integer">
+      <Tweak directory="trucks"/>
+      <Tweak directory="addons"/>
+      <Tweak directory="trailers"/>
+      <Tweak directory="cargo"/>
+    </Group>
+    <Group parameter="Price" type="Integer">
+      <Tweak directory="engines"/>
+      <Tweak directory="gearboxes"/>
+      <Tweak directory="suspensions"/>
+      <Tweak directory="trucks"/>
+      <Tweak directory="addons"/>
+      <Tweak directory="trailers"/>
+      <Tweak directory="wheels"/>
+      <Tweak directory="winches"/>
+    </Group>
+    <Group parameter="UnlockByExploration" type="Boolean">
+      <Tweak directory="engines"/>
+      <Tweak directory="gearboxes"/>
+      <Tweak directory="suspensions"/>
+      <Tweak directory="trucks"/>
+      <Tweak directory="addons"/>
+      <Tweak directory="wheels"/>
+      <Tweak directory="winches"/>
+    </Group>
+    <Group parameter="UnlockByRank" type="Integer">
+      <Tweak directory="engines"/>
+      <Tweak directory="gearboxes"/>
+      <Tweak directory="suspensions"/>
+      <Tweak directory="trucks"/>
+      <Tweak directory="addons"/>
+      <Tweak directory="wheels"/>
+      <Tweak directory="winches"/>
+    </Group>    
+  </ByParameter>
+  <ByDirectory>
+    <Group directory="engines">
+      <Tweak parameter="Torque" type="Integer"/>
+    </Group>
+    <Group directory="cargo">
+      <Tweak parameter="CargoValue" type="Integer"/>
+    </Group>
+    <Group directory="suspensions">
+      <Tweak parameter="Height" type="Real"/>
+      <Tweak parameter="Strength" type="Real"/>
+      <Tweak parameter="Damping" type="Real"/>
+    </Group>
+    <Group directory="trucks">
+      <Tweak parameter="SteerSpeed" type="Real"/>
+      <Tweak parameter="BackSteerSpeed" type="Real"/>
+      <Tweak parameter="Responsiveness" type="Real"/>
+    </Group>
+    <Group directory="_templates-wheels">
+      <Tweak parameter="BodyFriction" type="Real"/>
+      <Tweak parameter="BodyFrictionAsphalt" type="Real"/>
+      <Tweak parameter="SubstanceFriction" type="Real"/>
+    </Group>
+    <Group directory="winches">
+      <Tweak parameter="Length" type="Integer"/>
+      <Tweak parameter="StrengthMult" type="Real"/>
+      <Tweak parameter="IsEngineIgnitionRequired" type="Boolean"/>
+    </Group>
+  </ByDirectory>  
+</SnowrunnerTweaks>
